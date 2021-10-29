@@ -1,0 +1,146 @@
+:root{
+    --preta:#141414;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+/*elementos base*/
+body{
+   background: #1D222C;
+   font-family: 'Arial', Times, serif;
+   color:white;
+}
+
+
+header .container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    height: 10%;
+    width: 10%;
+}
+
+header nav a{
+    text-decoration:none;
+    color:#AAA;
+    margin-right: 20px;
+}
+
+
+header nav a:hover{
+    color:#fff;
+}
+
+.catalago{ 
+    font-size:16px;
+    background: url('/img/impulso.png');
+
+    height:730px;
+    background-size:cover;
+ 
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+.catalago .descricao{ 
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+
+.catalago .titulo{
+    margin-top: 15%;
+    font-size: 40px;
+    font-family: 'Trebuchet MS', Arial, sans-serif;
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border:none;
+    color: #AAA;
+
+    padding:10px 10px; 
+    font-size: 14px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color:orange;
+    color:black;
+}
+
+
+.container{
+    margin-left: 20px;
+}
+
+.catalago .container{ 
+    width: 70%;
+}
+
+.box-bootcamps{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.box-cursos{
+    height: 30%;
+    width: 80px;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-bootcamps{
+    margin-top:4px;
+}
+
+.carrosel-cursos{
+    margin-top:4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
